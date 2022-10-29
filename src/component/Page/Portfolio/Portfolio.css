@@ -1,0 +1,30 @@
+.portfolio-box {
+    margin-top: 10rem;
+    height: 100vh;
+    margin-bottom: -17rem;
+    text-align: center;
+}
+
+.portfolio-box h5 {
+    color: var(--color-font-secondary);
+}
+
+.portfolio__container{
+    margin-top: 2rem;
+}
+.portfolio__item-image {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 100%;
+    margin-bottom: 1.2rem;
+}
+
+.portfolio_button{
+    margin-top: 1.4rem;
+}
+
+img{
+    border-radius: 2rem;
+}

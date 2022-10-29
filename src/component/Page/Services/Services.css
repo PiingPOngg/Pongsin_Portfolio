@@ -1,0 +1,50 @@
+.services_box {
+    margin-top: 10rem;
+    height: 100vh;
+    margin-bottom: -17rem;
+}
+
+.services_box-h2 {
+    text-align: center;
+}
+.services__container {
+    margin-top: 2rem;
+    margin-bottom: -12rem;
+    justify-content: center;
+    display: flex;
+}
+
+.service {
+    background: var(--color-secondary);
+    width: 50%;
+    padding: 2.4rem 2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    justify-content: center;
+    align-items: center;
+}
+
+.service:hover {
+    background: transparent;
+    border-color: var(--color-font-primary);
+    cursor: default;
+}
+
+.service__head {
+    text-align: center;
+}
+
+.service__head h3{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.service__head h5{
+    color: var(--color-font-secondary);
+    font-size: 0.9rem;
+}
+
+.service__list li{
+    margin-top: 1rem;
+}
